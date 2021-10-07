@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="i2c_master_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="i2c_master" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="544000001fs"></ZoomEndTime>
+      <Cursor1Time time="113600000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="375"></NameColumnWidth>
+      <ValueColumnWidth column_width="174"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="37" />
+   <wvobject fp_name="/i2c_master/CLK100MHZ" type="logic">
+      <obj_property name="ElementShortName">CLK100MHZ</obj_property>
+      <obj_property name="ObjectShortName">CLK100MHZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/sw" type="logic">
+      <obj_property name="ElementShortName">sw</obj_property>
+      <obj_property name="ObjectShortName">sw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/sda" type="logic">
+      <obj_property name="ElementShortName">sda</obj_property>
+      <obj_property name="ObjectShortName">sda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/scl" type="logic">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/data_clk" type="logic">
+      <obj_property name="ElementShortName">data_clk</obj_property>
+      <obj_property name="ObjectShortName">data_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/data_clk_prev" type="logic">
+      <obj_property name="ElementShortName">data_clk_prev</obj_property>
+      <obj_property name="ObjectShortName">data_clk_prev</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/scl_clk" type="logic">
+      <obj_property name="ElementShortName">scl_clk</obj_property>
+      <obj_property name="ObjectShortName">scl_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/scl_ena" type="logic">
+      <obj_property name="ElementShortName">scl_ena</obj_property>
+      <obj_property name="ObjectShortName">scl_ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/sda_int" type="logic">
+      <obj_property name="ElementShortName">sda_int</obj_property>
+      <obj_property name="ObjectShortName">sda_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/sda_ena_n" type="logic">
+      <obj_property name="ElementShortName">sda_ena_n</obj_property>
+      <obj_property name="ObjectShortName">sda_ena_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/data_tx" type="array">
+      <obj_property name="ElementShortName">data_tx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_tx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/data_ext" type="array">
+      <obj_property name="ElementShortName">data_ext[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_ext[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/import_trig" type="logic">
+      <obj_property name="ElementShortName">import_trig</obj_property>
+      <obj_property name="ObjectShortName">import_trig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/data_len" type="other">
+      <obj_property name="ElementShortName">data_len</obj_property>
+      <obj_property name="ObjectShortName">data_len</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/led" type="logic">
+      <obj_property name="ElementShortName">led</obj_property>
+      <obj_property name="ObjectShortName">led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/led2" type="logic">
+      <obj_property name="ElementShortName">led2</obj_property>
+      <obj_property name="ObjectShortName">led2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/addr_rw" type="array">
+      <obj_property name="ElementShortName">addr_rw[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_rw[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/data_rx" type="array">
+      <obj_property name="ElementShortName">data_rx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/bit_cnt" type="other">
+      <obj_property name="ElementShortName">bit_cnt</obj_property>
+      <obj_property name="ObjectShortName">bit_cnt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/stretch" type="logic">
+      <obj_property name="ElementShortName">stretch</obj_property>
+      <obj_property name="ObjectShortName">stretch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/addr" type="array">
+      <obj_property name="ElementShortName">addr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/rw" type="logic">
+      <obj_property name="ElementShortName">rw</obj_property>
+      <obj_property name="ObjectShortName">rw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/data_rd" type="array">
+      <obj_property name="ElementShortName">data_rd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/ack_error" type="logic">
+      <obj_property name="ElementShortName">ack_error</obj_property>
+      <obj_property name="ObjectShortName">ack_error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/sw_controler" type="logic">
+      <obj_property name="ElementShortName">sw_controler</obj_property>
+      <obj_property name="ObjectShortName">sw_controler</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/data_wr" type="array">
+      <obj_property name="ElementShortName">data_wr[23:0]</obj_property>
+      <obj_property name="ObjectShortName">data_wr[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/end_flag" type="logic">
+      <obj_property name="ElementShortName">end_flag</obj_property>
+      <obj_property name="ObjectShortName">end_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/input_clk" type="other">
+      <obj_property name="ElementShortName">input_clk</obj_property>
+      <obj_property name="ObjectShortName">input_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/bus_clk" type="other">
+      <obj_property name="ElementShortName">bus_clk</obj_property>
+      <obj_property name="ObjectShortName">bus_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/len" type="other">
+      <obj_property name="ElementShortName">len</obj_property>
+      <obj_property name="ObjectShortName">len</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/in_clk" type="other">
+      <obj_property name="ElementShortName">in_clk</obj_property>
+      <obj_property name="ObjectShortName">in_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/b_clk" type="other">
+      <obj_property name="ElementShortName">b_clk</obj_property>
+      <obj_property name="ObjectShortName">b_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_master/divider" type="other">
+      <obj_property name="ElementShortName">divider</obj_property>
+      <obj_property name="ObjectShortName">divider</obj_property>
+   </wvobject>
+</wave_config>

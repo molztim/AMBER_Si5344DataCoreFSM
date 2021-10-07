@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Si5344_Data_Core_FSM_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Si5344_Data_Core_FSM" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="993500001fs"></ZoomEndTime>
+      <Cursor1Time time="232000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="405"></NameColumnWidth>
+      <ValueColumnWidth column_width="174"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/Si5344_Data_Core_FSM/CLK100MHZ" type="logic">
+      <obj_property name="ElementShortName">CLK100MHZ</obj_property>
+      <obj_property name="ObjectShortName">CLK100MHZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Si5344_Data_Core_FSM/sda" type="logic">
+      <obj_property name="ElementShortName">sda</obj_property>
+      <obj_property name="ObjectShortName">sda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Si5344_Data_Core_FSM/scl" type="logic">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Si5344_Data_Core_FSM/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Si5344_Data_Core_FSM/IO_busy" type="logic">
+      <obj_property name="ElementShortName">IO_busy</obj_property>
+      <obj_property name="ObjectShortName">IO_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Si5344_Data_Core_FSM/data_byte" type="array">
+      <obj_property name="ElementShortName">data_byte[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_byte[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Si5344_Data_Core_FSM/sw" type="logic">
+      <obj_property name="ElementShortName">sw</obj_property>
+      <obj_property name="ObjectShortName">sw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Si5344_Data_Core_FSM/IO_Flag" type="logic">
+      <obj_property name="ElementShortName">IO_Flag</obj_property>
+      <obj_property name="ObjectShortName">IO_Flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Si5344_Data_Core_FSM/IO_reset" type="logic">
+      <obj_property name="ElementShortName">IO_reset</obj_property>
+      <obj_property name="ObjectShortName">IO_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Si5344_Data_Core_FSM/datacounter" type="other">
+      <obj_property name="ElementShortName">datacounter</obj_property>
+      <obj_property name="ObjectShortName">datacounter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Si5344_Data_Core_FSM/counter" type="other">
+      <obj_property name="ElementShortName">counter</obj_property>
+      <obj_property name="ObjectShortName">counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Si5344_Data_Core_FSM/waitcounter" type="other">
+      <obj_property name="ElementShortName">waitcounter</obj_property>
+      <obj_property name="ObjectShortName">waitcounter</obj_property>
+   </wvobject>
+</wave_config>
